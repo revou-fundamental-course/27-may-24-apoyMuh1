@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 1em;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+nav a {
+    color: purple;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome h1 span {
+    color: #4CAF50;
+}
+
+.facilitation {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.facilitation-items {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.facilitation-item {
+    text-align: center;
+}
+
+.facilitation-item .icon {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 1em;
+}
+
+.contact {
+    display: grid;
+    width: 450px;
+    height: auto;
+    margin: 2em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+#form-output {
+    margin-left: 1em;
+    padding: 1em;
+    border: 1px solid #4CAF50;
+    display: none;
+}
+
+footer {
+    margin: bottom;
+    text-align: center;
+    padding: 1em;
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    .facilitation-items {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+}

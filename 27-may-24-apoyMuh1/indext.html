@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Muhammadiyah 1 Yogyakarta</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body style="margin: 0; background-color: whitesmoke;">
+    <header>
+        <div class="logo">
+            <img src="Asset/SMA-Muhammadiyah-1-Yogyakarta-Logo.jpg" alt="School Logo">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Our Profile</a>
+            <a href="#">Achievement</a>
+            <a href="#">Message Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            <h1>Hi <span id="user-name">Alven</span>, Welcome To Website</h1>
+            <p>Selamat Datang Di SMA Muhammadiyah 1 Yogyakarta</p>
+            <h2>Sekolah Kader Muhammadiyah dan Kader pemimpin</h2   >
+            <div class="banner">
+                <img src="Asset/sma-muhammadiyah-1-yogyakarta-_160916140547-691.jpg" alt="Banner Image" style="width: 50%; height: auto;">
+            </div>
+        </section>
+        <section class="facilitation">
+            <h2>Our Facilitation</h2>
+            <div class="facilitation-items">
+                <div class="facilitation-item">
+                    <div class="icon">
+                        <img src="Asset/biru22__IMG_1172 copy (1).jpg" alt="icon" style="width: 100%; height: 100%;" >
+                    </div>
+                    <p>Guru Professional</p>
+                </div>
+                <div class="facilitation-item">
+                    <div class="icon">
+                        <img src="Asset/27922541_BXvpzawv_IgBxopqSc3G2Dcz-WxeFqAWq8UcsjPDLfY.jpg" alt="icon" style="width: 100%; height: 100%;">
+                    </div>
+                    <p>Lapangan Basket</p>
+                </div>
+                <div class="facilitation-item">
+                    <div class="icon">
+                        <img src="Asset/download.jpg" alt="Banner Image" style="width: 100%; height: 100%;">
+                    </div>
+                    <p>Kelas</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Message Us</h2>
+                <form id="message-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="dob">Tanggal Lahir:</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="gender">Jenis Kelamin:</label>
+                <label for="male">Laki-Laki
+                    <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                    Perempuan
+                    <input type="radio" id="female" name="gender" value="Perempuan" required>
+                </label>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+                </form>
+            <div id="form-output"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Created By Alven</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
